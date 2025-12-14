@@ -1,0 +1,9 @@
+<resources>
+    <style name="GameButton" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">12sp</item>
+        <item name="android:backgroundTint">#B7E5CD</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Lớp 1: Glow lan tỏa (Outer Glow) - Màu xanh lá -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#4000E676" /> <!-- Xanh lá sáng, độ trong suốt 25% -->
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
+    <!-- Lớp 2: Glow đậm sát viền (Inner Glow / Stroke) -->
+    <item
+        android:top="2dp"
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#8000C853" /> <!-- Xanh lá đậm hơn, độ trong suốt 50% -->
+            <corners android:radius="18dp" />
+        </shape>
+    </item>
+
+    <!-- Lớp 3: Nền chính -->
+    <item
+        android:top="4dp"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <stroke android:width="2dp" android:color="#00E676" /> <!-- Viền xanh lá sáng -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</layer-list>
